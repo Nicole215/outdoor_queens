@@ -1,0 +1,1 @@
+web: gunicorn outdoor-queens.wsgi
