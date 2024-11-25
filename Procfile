@@ -1,1 +1,1 @@
-web: gunicorn outdoor-queens.wsgi
+web: gunicorn outdoor_queens.wsgi
