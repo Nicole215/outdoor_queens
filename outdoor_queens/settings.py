@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%12hx@obg@qe%li5#+apo5x^ba48c7c*fe&mk8n9#j*#_a)(3b'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net', '.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = [
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
