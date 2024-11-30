@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-%12hx@obg@qe%li5#+apo5x^ba48c7c*fe&mk8n9#j*#_a)(3b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net', 'https://outdoor-queens-e3117004e229.herokuapp.com/']
+ALLOWED_HOSTS = ['8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net', 'outdoor-queens-e3117004e229.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net'
 ]
