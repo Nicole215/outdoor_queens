@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '=ue6v0!xtiwrjkdv11(ml99&((zsoo+4$6rov=3w=fu6fzgec(')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net', 'outdoor-queens-e3117004e229.herokuapp.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = [
@@ -81,6 +81,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'bag.contexts.bag_contents',
             ],
         },
     },
