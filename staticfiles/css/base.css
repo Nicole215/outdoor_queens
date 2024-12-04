@@ -68,6 +68,10 @@ body {
     border: 1px solid black !important;
 }
 
+.bg-black {
+    background: #000 !important;
+}
+
 .overlay {
     height: 100%;
     width: 100%;
@@ -78,6 +82,11 @@ body {
     z-index: -1;
 }
 
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 .btt-button {
     height: 42px;
     width: 42px;
@@ -86,7 +95,9 @@ body {
     right: 10px;
 }
 
-.btt-link {
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
@@ -94,9 +105,9 @@ body {
 
 .message-container {
     position: fixed;
-    top: 92px;
+    top: 72px;
     right: 15px;
-    z-index: 9999999;
+    z-index: 9999999999;
 }
 
 .custom-toast {
