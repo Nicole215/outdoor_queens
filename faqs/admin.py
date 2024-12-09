@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import FAQ
+from .models import FAQ, ContactRequest
 
 # Register your models here.
 
@@ -15,6 +15,12 @@ class FAQAdmin(admin.ModelAdmin):
         'answer',
     )
     ordering = ('order',)
+
+
+@admin.register(ContactRequest)
+class ContactRequestAdmin(admin.ModelAdmin):
+
+    list_display = ('message', 'read',)
 
 
 
