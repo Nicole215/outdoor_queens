@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url(media/background.jpg) no-repeat center;
+    background: url('/media/background.jpg') no-repeat center;
     background-size: cover;
     background-attachment: fixed;
     height: calc(100vh - 164px);
