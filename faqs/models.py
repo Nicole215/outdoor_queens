@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class FAQ(models.Model):
+    """ FAQs to answer to most asked question users might have """
     question = models.CharField(max_length=255)
     answer = models.TextField()
     order = models.IntegerField(default=0)
@@ -11,6 +12,7 @@ class FAQ(models.Model):
 
 
 class ContactRequest(models.Model):
+    """ Contact Form for User to contact shop owner """
     name = models.CharField(max_length=200)
     email = models.EmailField()
     message = models.TextField()
