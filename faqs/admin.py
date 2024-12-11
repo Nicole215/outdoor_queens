@@ -3,6 +3,7 @@ from .models import FAQ, ContactRequest
 
 # Register your models here.
 
+
 @admin.register(FAQ)
 class FAQAdmin(admin.ModelAdmin):
     list_display = (
@@ -21,8 +22,3 @@ class FAQAdmin(admin.ModelAdmin):
 class ContactRequestAdmin(admin.ModelAdmin):
 
     list_display = ('message', 'read',)
-
-
-
-
-

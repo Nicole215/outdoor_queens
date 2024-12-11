@@ -28,7 +28,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net', 'outdoor-queens-e3117004e229.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = [
+    '8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net',
+    'outdoor-queens-e3117004e229.herokuapp.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net'
 ]
@@ -136,7 +138,6 @@ else:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
-
 
 
 # Password validation
