@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block extra_css %}
+
+{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <h2 class="logo font mb-4">404 - Page not found</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6 rounded-4 py-3 mb-3">
+                <p>Oh no, looks like you wandered off.</p>
+                <p>The page you're looking for does not exist.</p>
+                <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0">Home</a>
+            </div>
+        </div>
+    </div>
+{% endblock %}
