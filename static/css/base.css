@@ -12,7 +12,9 @@ body {
 }
 
 /* FAQs styling */
-
+.faq-card {
+    margin-bottom: 20px;
+}
 
 /* from Bulma */
 .icon {
@@ -267,22 +269,6 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
-}
-
-/* Footer Styling */
-.footer {
-    background: #212529;
-    background-position: bottom;
-    height: 30vh;
-    color: white;
-}
-
-/* Mailchimp styling */
-#mc_embed_signup {
-    background: #fff;
-    clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 600px;
 }
 
 /* fixed top navbar only on medium and up */
