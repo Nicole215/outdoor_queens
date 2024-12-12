@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://outdoor-queens-e3117004e229.herokuapp.com/sitemap.xml
