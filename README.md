@@ -108,19 +108,37 @@ The business operates on a B2C (business-to-consumer) model, focusing on deliver
 
 <details>
 <summary>Before deciding on marketing strategies and defining a business plan, I tried to answer the following questions to provide a framework for the business' strategy:</summary>
-1. **Who is my target audience?**
-**Who are the ideal customers for the events and merchandise?**
-Outdoor enthusiasts, adventure seekers, fitness-minded individuals, and those who enjoy unique challenges like hiking and mud runs. Demographics might include people aged 18–105 with active lifestyles and disposable income.
-2. **What problem am I solving for my customers?**
-**How does the business meet the needs or desires of the target audience?**
-Offering a combination of physical challenge and community connection through unique events, while providing memorable, high-quality merchandise that serves as a reward or memento.
-3. **What makes my business unique?**
-**What differentiates my offerings from competitors?**
-The integration of hiking events and mud runs under one brand is unique, creating an unparalleled adventure experience. Additionally, the emphasis on branded merchandise strengthens emotional ties to the events.
-4. **How will I reach my audience?**
-**Which marketing channels are most effective?**
-Leverage social media platforms like Instagram, Facebook, and TikTok to showcase event highlights and branded merchandise.
-5. **What are my goals for the business?**
-**What am I aiming to achieve in the short and long term?**
-In the short term, generate buzz and ticket sales for events while growing social media following. Long-term goals include building a loyal community, expanding the merchandise line, and hosting larger events across multiple locations.
+1. Who is my target audience?
+- **Who are the ideal customers for the events and merchandise?**
+- Outdoor enthusiasts, adventure seekers, fitness-minded individuals, and those who enjoy unique challenges like hiking and mud runs. Demographics might include people aged 18–105 with active lifestyles and disposable income.
+2. What problem am I solving for my customers?
+- **How does the business meet the needs or desires of the target audience?**
+- Offering a combination of physical challenge and community connection through unique events, while providing memorable, high-quality merchandise that serves as a reward or memento.
+3. What makes my business unique?
+- **What differentiates my offerings from competitors?**
+- The integration of hiking events and mud runs under one brand is unique, creating an unparalleled adventure experience. Additionally, the emphasis on branded merchandise strengthens emotional ties to the events.
+4. How will I reach my audience?
+- **Which marketing channels are most effective?**
+- Leverage social media platforms like Instagram, Facebook, and TikTok to showcase event highlights and branded merchandise.
+5. What are my goals for the business?
+- **What am I aiming to achieve in the short and long term?**
+- In the short term, generate buzz and ticket sales for events while growing social media following. Long-term goals include building a loyal community, expanding the merchandise line, and hosting larger events across multiple locations.
 </details>
+
+#### Strategies
+- **Social Media Marketing**
+  <details>
+    <summary>Facebook mock page</summary>
+    ![Facebook_Mockup](https://github.com/user-attachments/assets/7e3a7e08-edb5-43db-9c97-96b58a034a83)
+  </details>
+
+- **Email Marketing using MailChimp**
+The MailChimp Newsletter subscription service is an excellent choice for a small-scale business like ours, as it is free and easy to set up. The newsletter content could include exclusive early access to event updates, promotions, and new merchandise announcements, reducing the time required for creating standalone marketing content. Subscribing to the newsletter is entirely optional for customers. On the site, the subscription form is subtly placed in the footer, avoiding the intrusive pop-up style commonly used on other websites.
+
+![Screenshot 2024-12-14 160747](https://github.com/user-attachments/assets/0dcbabc4-8478-41f8-b9d5-77c3ae86cfc8)
+
+![Screenshot 2024-12-14 160813](https://github.com/user-attachments/assets/72110914-ac28-42c6-8821-ddcb0d487908)
+
+![Screenshot 2024-12-14 160824](https://github.com/user-attachments/assets/1cc484f9-3032-4fa5-aa5a-58349b2bb572)
+
+
