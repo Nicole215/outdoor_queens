@@ -18,6 +18,18 @@ This project follows Agile principles to ensure a flexible, iterative approach t
 
 To visualize and track progress, I use a Kanban board. The board provides a clear view of tasks at various stages, helping me stay organized and focused. Tasks are divided into columns such as:
 
-To Do: Tasks that need to be worked on.
-In Progress: Tasks currently being worked on.
-Done: Tasks that are completed and finalized.
+- To Do: Tasks that need to be worked on.
+- In Progress: Tasks currently being worked on.
+- Done: Tasks that are completed and finalized.
+
+## Wireframes
+The initial wireframes are a simplified version of the finished product and merely served the purpose of listing the essential features.
+<detail>
+<summary>Wieframe images</summary>
+![landing page](https://github.com/user-attachments/assets/89b6ceef-a04b-4805-a406-95851a418842)
+
+![product page](https://github.com/user-attachments/assets/a3193e6d-4272-4493-b80a-158d775f561a)
+
+![FAQ and contact](https://github.com/user-attachments/assets/e9c1f3e8-163c-4043-a274-e6faec53d4ce)
+
+</details>
