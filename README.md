@@ -26,6 +26,7 @@ To visualize and track progress, I use a Kanban board. The board provides a clea
 The initial wireframes are a simplified version of the finished product and merely served the purpose of listing the essential features.
 <details>
 <summary>Wireframe images</summary>
+  
 ![landing page](https://github.com/user-attachments/assets/89b6ceef-a04b-4805-a406-95851a418842)
 
 ![product page](https://github.com/user-attachments/assets/a3193e6d-4272-4493-b80a-158d775f561a)
@@ -38,7 +39,7 @@ The initial wireframes are a simplified version of the finished product and mere
 #### Executive Summary
 The Outdoor Queens E-Commerce Website aims to provide a seamless and user-friendly online experience for outdoor enthusiasts purchasing tickets for hiking events, mud runs, and custom merchandise. The goal is to create an intuitive interface that mirrors the simplicity and empowerment of outdoor adventures, while delivering an aesthetically pleasing experience that elevates users’ sense of accomplishment. With a focus on accessibility, ease of navigation, and visual appeal, the website will ensure customers enjoy a frictionless journey from browsing to purchase.
 
-* *Site owner:* *
+*Site owner:*
 The owner of the site wants to be able to maintain the website without effort and via an appealing UI.
 
 #### Objectives
@@ -47,7 +48,7 @@ The owner of the site wants to be able to maintain the website without effort an
 3. **Empower Users:** Implement a design that celebrates the sense of achievement after completing a hike or mud run, with special visual elements to make customers feel accomplished and rewarded.
 4. **Increase Retention:** Provide account management features, allowing users to save their information, view order history, and return for future events with ease.
 
-* *Site owner:* *
+*Site owner:*
 The owner of the site can easily add, edit or delete tickets and products via the front-end interface. This feature is only accessible to authorised users.
 
 #### Target Audience
@@ -63,3 +64,15 @@ The design of the Hiking & Mud Run E-Commerce Website will reflect the following
 2. **Intuitive Navigation:** Clear, simple navigation paths that guide users smoothly through ticket purchasing, merchandise shopping, and account management without confusion.
 3. **Empowerment:** A visual design that incorporates elements symbolizing accomplishment. Golden accents are used to evoke a sense of pride and achievement, making users feel like they’ve conquered their journey.
 4. **Accessibility:** The design follows best practices for accessibility, ensuring all users, regardless of ability, can easily access and navigate the site.
+
+## Visual Design Choices
+#### Color Scheme:
+The overall page is hold in black and white. A darker gold (#DAA520) is used to highlight the character of achievment.
+
+![Screenshot 2024-12-14 132426](https://github.com/user-attachments/assets/34d73dda-55ef-4b86-859f-7042dfa1749b)
+
+#### Fonts:
+For the websites typography, Lato was chosen because it is clean, yet modern.
+
+#### Images and Icons:
+For the design of the products, background and icons, a crown was chosen to represent achievements. The crown symbolizes the sense of accomplishment and triumph that comes after completing a challenging hike, mud run, or other endurance activity. This design element emphasizes the reward of perseverance and serves as a tribute to those who push their limits to achieve their goals.
