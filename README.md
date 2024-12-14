@@ -76,3 +76,28 @@ For the websites typography, Lato was chosen because it is clean, yet modern.
 
 #### Images and Icons:
 For the design of the products, background and icons, a crown was chosen to represent achievements. The crown symbolizes the sense of accomplishment and triumph that comes after completing a challenging hike, mud run, or other endurance activity. This design element emphasizes the reward of perseverance and serves as a tribute to those who push their limits to achieve their goals.
+
+## SEO and Marketing Research
+### Keyword Research
+#### Initial list of Keywords to research
+- mud runs for women
+- women only hiking events
+- mud runs
+- hiking events
+- outdoor sports
+- outdoor events for women
+- mud run clothing for women
+- obstacle races
+- sporting women
+
+### Research of similar businesses
+As a hiker and mud runner myself, I got inspired by [Muddy Angels](https://www.muddyangelrun.com/) and [Mammutmarsch](https://mammutmarsch.de/)
+During my keyword research on Google, I identified a few similar brands, primarily based in the United States. Most of these websites focus exclusively on either hiking events or mud runs. However, the integration of both activities into a single offering appears to be a unique value proposition, setting this concept apart in the market.
+
+### SEO Improvements
+#### Meta Tags
+In the head of base.html, <meta name="description" ... and <meta name="keywords" ... tags were included.
+#### Creating a sitemap
+The sitemap file sitemap.xml was created using [XML Sitemaps](https://www.xml-sitemaps.com/) to enhance site navigation for search engines and accelerate content discovery. 
+#### Creating a robots.txt file
+The file specifies which directories search engines should avoid crawling and indexing, while also providing a link to the sitemap. Its presence demonstrates a level of site quality to search engines, contributing to improved SEO rankings.
