@@ -91,7 +91,7 @@ For the design of the products, background and icons, a crown was chosen to repr
 - sporting women
 
 ### Research of similar businesses
-As a hiker and mud runner myself, I got inspired by [Muddy Angels](https://www.muddyangelrun.com/) and [Mammutmarsch](https://mammutmarsch.de/)
+As a hiker and mud runner myself, I got inspired by [Muddy Angels](https://www.muddyangelrun.com/) and [Mammutmarsch](https://mammutmarsch.de/).
 During my keyword research on Google, I identified a few similar brands, primarily based in the United States. Most of these websites focus exclusively on either hiking events or mud runs. However, the integration of both activities into a single offering appears to be a unique value proposition, setting this concept apart in the market.
 
 ### SEO Improvements
@@ -101,3 +101,26 @@ In the head of base.html, <meta name="description" ... and <meta name="keywords"
 The sitemap file sitemap.xml was created using [XML Sitemaps](https://www.xml-sitemaps.com/) to enhance site navigation for search engines and accelerate content discovery. 
 #### Creating a robots.txt file
 The file specifies which directories search engines should avoid crawling and indexing, while also providing a link to the sitemap. Its presence demonstrates a level of site quality to search engines, contributing to improved SEO rankings.
+
+### Marketing Strategies
+#### Pre-strategy planning
+The business operates on a B2C (business-to-consumer) model, focusing on delivering value directly to its customers. The core offerings include tickets for self-hosted events, such as hiking adventures and mud runs, as well as a range of branded merchandise. This dual revenue stream is designed to engage the target audience on multiple levels—providing unforgettable experiences while fostering brand loyalty through high-quality products.
+
+<details>
+<summary>Before deciding on marketing strategies and defining a business plan, I tried to answer the following questions to provide a framework for the business' strategy:</summary>
+1. **Who is my target audience?**
+**Who are the ideal customers for the events and merchandise?**
+Outdoor enthusiasts, adventure seekers, fitness-minded individuals, and those who enjoy unique challenges like hiking and mud runs. Demographics might include people aged 18–105 with active lifestyles and disposable income.
+2. **What problem am I solving for my customers?**
+**How does the business meet the needs or desires of the target audience?**
+Offering a combination of physical challenge and community connection through unique events, while providing memorable, high-quality merchandise that serves as a reward or memento.
+3. **What makes my business unique?**
+**What differentiates my offerings from competitors?**
+The integration of hiking events and mud runs under one brand is unique, creating an unparalleled adventure experience. Additionally, the emphasis on branded merchandise strengthens emotional ties to the events.
+4. **How will I reach my audience?**
+**Which marketing channels are most effective?**
+Leverage social media platforms like Instagram, Facebook, and TikTok to showcase event highlights and branded merchandise.
+5. **What are my goals for the business?**
+**What am I aiming to achieve in the short and long term?**
+In the short term, generate buzz and ticket sales for events while growing social media following. Long-term goals include building a loyal community, expanding the merchandise line, and hosting larger events across multiple locations.
+</details>
