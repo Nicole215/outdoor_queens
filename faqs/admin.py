@@ -1,8 +1,6 @@
 from django.contrib import admin
 from .models import FAQ, ContactRequest
 
-# Register your models here.
-
 
 @admin.register(FAQ)
 class FAQAdmin(admin.ModelAdmin):

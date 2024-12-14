@@ -4,7 +4,6 @@ from .models import FAQ
 from .forms import ContactForm
 
 
-# Create your views here.
 def faqs_view(request):
 
     if request.method == "POST":

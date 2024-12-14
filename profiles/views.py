@@ -8,7 +8,6 @@ from .forms import UserProfileForm
 from checkout.models import Order
 
 
-# Create your views here.
 @login_required
 def profile(request):
     """ Display the user's profile """

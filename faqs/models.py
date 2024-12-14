@@ -1,7 +1,6 @@
 from django.db import models
 
 
-# Create your models here.
 class FAQ(models.Model):
     """ FAQs to answer to most asked question users might have """
     question = models.CharField(max_length=255)
