@@ -338,3 +338,12 @@ Future updates may include interactive buttons on the homepage for users to dire
 
 ### Forum for Travel Buddies
 A forum exclusively for logged-in users will be introduced, allowing customers to connect with like-minded individuals, share experiences, and find travel buddies for upcoming hikes, or mud runs. This feature will foster community engagement and provide added value to users planning group adventures.
+
+## Database Model
+The database model diagram was designed using [Lucidchart](https://lucid.app/documents/#/home?folder_id=recent). The initial draft of the entity-relationship diagram does not include all the models present in the final database design.
+<details>
+  <summary>ERD</summary>
+
+![DBMS ER diagram (UML notation)](https://github.com/user-attachments/assets/4a5f46a1-b82a-4970-8678-7386e707e753)
+  
+</details>
