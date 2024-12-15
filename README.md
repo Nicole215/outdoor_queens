@@ -106,8 +106,7 @@ The file specifies which directories search engines should avoid crawling and in
 #### Pre-strategy planning
 The business operates on a B2C (business-to-consumer) model, focusing on delivering value directly to its customers. The core offerings include tickets for self-hosted events, such as hiking adventures and mud runs, as well as a range of branded merchandise. This dual revenue stream is designed to engage the target audience on multiple levels—providing unforgettable experiences while fostering brand loyalty through high-quality products.
 
-<details>
-<summary>Before deciding on marketing strategies and defining a business plan, I tried to answer the following questions to provide a framework for the business' strategy:</summary>
+Before deciding on marketing strategies and defining a business plan, I tried to answer the following questions to provide a framework for the business' strategy:
 1. Who is my target audience?
    - **Who are the ideal customers for the events and merchandise?**
    - Outdoor enthusiasts, adventure seekers, fitness-minded individuals, and those who enjoy unique challenges like hiking and mud runs. Demographics might include people aged 18–105 with active lifestyles and disposable income.
@@ -123,7 +122,6 @@ The business operates on a B2C (business-to-consumer) model, focusing on deliver
 5. What are my goals for the business?
    - **What am I aiming to achieve in the short and long term?**
    - In the short term, generate buzz and ticket sales for events while growing social media following. Long-term goals include building a loyal community, expanding the merchandise line, and hosting larger events across multiple locations.
-</details>
 
 #### Strategies
 - **Social Media Marketing**
@@ -143,4 +141,193 @@ The MailChimp Newsletter subscription service is an excellent choice for a small
 
 ![Screenshot 2024-12-14 160824](https://github.com/user-attachments/assets/1cc484f9-3032-4fa5-aa5a-58349b2bb572)
 
+## Features
+### Existing Features
+The website is designed with a range of features to ensure a user-friendly and functional experience:
 
+##### Responsive Navbar
+
+- Includes a burger dropdown menu for seamless navigation on both desktop and mobile devices.
+- Navigation options adapt based on user authentication (authorized users see personalized options).
+
+![Screenshot 2024-12-15 120745](https://github.com/user-attachments/assets/d1d35e06-e67c-451b-9337-5cd26ff411a0)
+
+![Screenshot 2024-12-15 120850](https://github.com/user-attachments/assets/d44847b9-9d12-4845-8ae9-59a21fca5286)
+
+##### Footer
+
+- Features links to social media platforms for easy engagement.
+- Includes an email subscription form powered by MailChimp for optional newsletter sign-up.
+
+![Screenshot 2024-12-15 121008](https://github.com/user-attachments/assets/77ee1ec6-6cee-456a-a76f-64d1743db9c5)
+
+![Screenshot 2024-12-15 120958](https://github.com/user-attachments/assets/11019f37-0ee8-4739-8837-b9e305446f11)
+
+##### Home Page
+
+- Home Page with Hero Image
+- Shop Now Button
+
+![Screenshot 2024-12-15 121207](https://github.com/user-attachments/assets/b3e8765d-429f-4de4-bf5c-ef5c444b1d95)
+
+##### FAQ Page
+
+- Provides answers to common questions to assist users efficiently.
+- Includes a contact form for users to reach out with specific queries.
+
+![Screenshot 2024-12-15 121310](https://github.com/user-attachments/assets/132adb7a-e121-4e79-a4aa-2ceb301767fd)
+
+![Screenshot 2024-12-15 121335](https://github.com/user-attachments/assets/f970dcd5-704d-4977-98e4-7131b999263b)
+
+##### 404 Error Page
+
+- Features the Hero Image as the background for a cohesive design.
+- Notifies users of an invalid URL.
+- Includes a Home Button that redirects users back to the Homepage for easy navigation.
+
+![Screenshot 2024-12-15 121544](https://github.com/user-attachments/assets/aaeaebb7-aa36-420c-b1f6-614cacfea9f0)
+
+#### Authentication
+The website includes a robust authentication system to ensure secure user access:
+
+##### Sign-Up Page
+
+- Users can create an account by providing their details.
+- A confirmation email with a verification link is sent to validate the account.
+
+![Screenshot 2024-12-15 122157](https://github.com/user-attachments/assets/caec0428-6200-4efd-8919-acf2de2ca7a1)
+
+![Screenshot 2024-12-15 122545](https://github.com/user-attachments/assets/630a4be8-b388-4398-ab48-a532810f76ad)
+
+##### Login Page
+
+- Registered users can log in securely to access personalized features.
+
+![Screenshot 2024-12-15 122252](https://github.com/user-attachments/assets/ec0f15c6-9931-4aa6-8a2a-07691d61edd7)
+
+![Screenshot 2024-12-15 122621](https://github.com/user-attachments/assets/7b1cfdb6-c7f1-49d2-99d0-9b1087eb693b)
+
+
+##### Logout Functionality
+
+- Users can log out easily, ensuring their account remains secure.
+
+![Screenshot 2024-12-15 122652](https://github.com/user-attachments/assets/5d597a04-864e-4813-a0ba-60c7fcd1b3ea)
+
+This system provides a smooth and secure user experience while maintaining data integrity.
+
+#### Products
+##### All Products Page
+The Products Page is designed for easy browsing and navigation:
+
+##### Shop Now Button
+
+Located on the homepage, the "Shop Now" button directs users to a comprehensive view of all available products.
+
+##### Category-Based Navigation
+
+The responsive navbar allows users to filter products by category, enabling a more tailored shopping experience.
+Categories include distinct groupings such as merchandise, event tickets, or other relevant product types.
+
+![Screenshot 2024-12-15 123411](https://github.com/user-attachments/assets/869fe88e-5114-441b-a375-19b8f1e00354)
+
+![Screenshot 2024-12-15 123443](https://github.com/user-attachments/assets/820022c3-31ce-4899-b6b7-1686b85506da)
+
+![Screenshot 2024-12-15 123516](https://github.com/user-attachments/assets/8e69060b-89f6-4e0a-9dba-b39f57ecbf3d)
+
+##### User-Friendly Layout
+
+Products are displayed with clear images, descriptions, and prices, ensuring users can make informed decisions quickly.
+Each product links to a dedicated page with additional details and purchase options.
+
+![image](https://github.com/user-attachments/assets/46eb91c8-c78f-4291-9080-a444bc6ba2e8)
+
+This intuitive structure ensures customers can effortlessly explore and find products that match their interests.
+
+#### Add, Edit, and Delete Options
+Authorized users have exclusive access to manage content through the following features:
+
+##### Add New Products
+
+Authorized users can add new products or events to the website, ensuring the offerings stay up-to-date.
+
+![Screenshot 2024-12-15 130005](https://github.com/user-attachments/assets/642dd903-c2a6-4a3b-aace-91f4f35ae1ef)
+
+![Screenshot 2024-12-15 130139](https://github.com/user-attachments/assets/32fc3ff7-a831-4bbe-a20e-6c7a672b774f)
+
+##### Edit Existing Products
+
+Allows authorized users to update product details such as names, descriptions, images, prices, or availability.
+
+![Screenshot 2024-12-15 130226](https://github.com/user-attachments/assets/9c565285-ecb8-4514-aa8c-51135198cd32)
+
+##### Delete Products
+
+Products or events that are no longer relevant can be removed by authorized users, keeping the catalog streamlined and accurate.
+These management features are restricted to authorized accounts, ensuring content control remains secure and aligned with the business objectives.
+
+#### Search Bar
+The website includes a fully functional search bar to enhance user navigation:
+
+##### Quick Product Search
+
+Users can easily search for products or events by entering relevant keywords.
+
+#### Shopping Bag
+##### Add to Bag
+Users can add products to their shopping bag directly from the product page or search results.
+
+![Screenshot 2024-12-15 130837](https://github.com/user-attachments/assets/d30447cc-6a4a-4c28-b7d9-ec3991b548d0)
+
+![Screenshot 2024-12-15 130908](https://github.com/user-attachments/assets/cb8d61e9-ffbf-49c6-9960-cdd21c726d59)
+
+##### View Bag
+The shopping bag provides a summary of selected items, including product names, quantities, and prices, ensuring clarity before checkout.
+
+![Screenshot 2024-12-15 131009](https://github.com/user-attachments/assets/092a9d5d-2780-4549-8dfe-e8a9737988ae)
+
+##### Update or Remove Items
+Users can adjust quantities or remove items from the shopping bag as needed, offering flexibility and control over their purchase.
+
+##### Persistent Bag
+The shopping bag contents remain saved during the session, allowing users to continue shopping without losing selected items.
+
+##### Keep Shopping Button
+A "Keep Shopping" button allows users to return to browsing without losing the items already added to their bag.
+
+##### Proceed to Checkout
+A clear "Checkout" button directs users to finalize their purchase with ease.
+
+![Screenshot 2024-12-15 131041](https://github.com/user-attachments/assets/cf38b524-fc66-435b-acfb-382b3ff49e8f)
+
+The shopping bag ensures a seamless and intuitive shopping experience, helping users review and manage their selections effortlessly.
+
+#### Checkout Success Page
+The website includes a dedicated Checkout Success Page to confirm and celebrate successful purchases:
+
+##### Order Confirmation
+Displays a clear confirmation message to reassure users that their order has been processed successfully.
+
+![Screenshot 2024-12-15 131601](https://github.com/user-attachments/assets/22f2f7df-0e5c-4439-a77e-75a0ef92471d)
+
+##### Order Details
+Includes a summary of the order, such as purchased items, quantities, total amount paid, and an order reference number for tracking.
+
+##### Next Steps
+Provides guidance on what happens next, such as receiving a confirmation email or expected delivery timeline.
+
+#### User Profile Page
+The User Profile Page provides users with a centralized space to manage their personal information and view order history:
+
+##### Contact Address Form
+Includes a pre-populated form with the user's previously saved information for convenience.
+Users can easily update their contact details when needed.
+
+##### Update Information Button
+A dedicated button allows users to save any changes made to their profile information.
+
+##### Order History
+Displays a list of the user's past orders, including order dates, items purchased, and total amounts.
+Provides a convenient reference for tracking previous purchases.
+
+![Screenshot 2024-12-15 132106](https://github.com/user-attachments/assets/c3efb1aa-29a7-4696-b5ee-172e74f67154)
