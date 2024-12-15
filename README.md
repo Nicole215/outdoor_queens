@@ -362,3 +362,36 @@ Changes are immediately reflected on the front-end once updated.
 Admin users have the ability to delete products from the database, removing them from the site completely.
 
 This full CRUD capability empowers admins to efficiently manage the product catalog and maintain up-to-date information on the site.
+
+## Technologies Used
+### Work Enviroments and Hosting
+- [Balsamiq](https://balsamiq.com/) Wireframes
+- [Lucid](https://lucid.app/documents/#/home?folder_id=recent) ERD diagrams
+- [GitHub](https://github.com/) Version control
+- [GitPod](https://gitpod.io/) IDE
+- [Heroku](https://heroku.com/) Site hosting
+- [AWS - Amazon Web services (S3)](https://aws.amazon.com/) Hosting static and media files
+
+### Frameworks
+- [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/) Used for front-end developement
+
+### Python Libraries
+- [Gunicorn](https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/gunicorn/) Python HTTP server for WSGI applications
+- [psycopg2](https://pypi.org/project/psycopg2/) PostgreSQL Database adapter
+- [Pillow](https://pypi.org/project/Pillow/) Python Imaging Library
+- [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) integrates python libraries with AWS services
+- [django-storages](https://django-storages.readthedocs.io/en/latest/) collection of custom storage backends for Django
+
+### Django Libraries
+- [django-allauth](https://django-allauth.readthedocs.io/en/latest/) User authentication
+- [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) Control rendering behaviour of Django forms
+
+### Payment processing
+- [Stripe](https://stripe.com/) Online payment platform
+
+### Emails/Newsletter
+- [Gmail](https://mail.google.com/) Real Email sending
+- [Mailchimp](https://mailchimp.com/) Automated newsletter subscription service
+
+### SEO/Marketing
+- [XML Sitemaps](https://www.xml-sitemaps.com/) Sitemap generator
