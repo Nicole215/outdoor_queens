@@ -465,7 +465,7 @@ This site was deployed to and is currently hosted on the Heroku platform. The st
      - STRIPE_SECRET_KEY (value: Secret Key from Stripe).
 3. Set Up Webhooks
    - In the Stripe dashboard, go to Developers > Webhooks.
-   - Create a new webhook endpoint with the URL of your deployed site followed by /webhook/stripe/ (e.g., https://yourapp.herokuapp.com/webhook/stripe/).
+   - Create a new webhook endpoint with the URL of your deployed site followed by e.g., /checkout/wh/ .
    - Select the events you want to monitor (e.g., checkout.session.completed).
    - Copy the Signing Secret and add it to Heroku as a config variable:
      - STRIPE_WH_SECRET (value: Signing Secret).
@@ -476,3 +476,20 @@ This site was deployed to and is currently hosted on the Heroku platform. The st
 6. Integrate Stripe Checkout
    - Use the Stripe library to implement payment functionality in your application.
    - Set up a checkout session in your views to handle payments, specifying the success and cancel URLs.
+
+## Development
+The following options are available to work with this code or run in a local environment.
+
+### Fork
+- Log into GitHub and navigate to the repository you want to fork.
+- Click the Fork button in the top-right corner.
+- Choose a different owner if needed.
+- Click Create Fork to confirm.
+- The repository is now copied to your account, ready to be cloned or modified.
+
+### Clone
+- Log into GitHub and navigate to the repository you want to clone.
+- Click the Code button and copy the URL (HTTPS, SSH, or GitHub CLI).
+- Open your terminal and navigate to the folder where you want the repository.
+- Run the command git clone <repository-url>.
+- The repository is now downloaded to your local machine and ready to be worked on.
