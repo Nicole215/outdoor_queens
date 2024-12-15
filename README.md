@@ -493,3 +493,14 @@ The following options are available to work with this code or run in a local env
 - Open your terminal and navigate to the folder where you want the repository.
 - Run the command git clone <repository-url>.
 - The repository is now downloaded to your local machine and ready to be worked on.
+
+## Credits
+1. Content
+   - The skeleton of this project is based on the Boutique Ado walkthrough, provided by [Code Institute](https://codeinstitute.net/de/)
+2. Media
+   - All icons were sourced from FontAwesome and are used under their license.
+   - I used [Spreadshirt](https://www.spreadshirt.de/) to create clothing and accessoirs.
+   - Images for background and tickets were created using [Canva](https://www.canva.com/).
+
+## Acknowledgements
+- This project would not have been possible without the help of the Code Institute tutors.
