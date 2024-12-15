@@ -331,3 +331,10 @@ Displays a list of the user's past orders, including order dates, items purchase
 Provides a convenient reference for tracking previous purchases.
 
 ![Screenshot 2024-12-15 132106](https://github.com/user-attachments/assets/c3efb1aa-29a7-4696-b5ee-172e74f67154)
+
+## Possible Future Features
+### Pre-Select Categories from Homepage
+Future updates may include interactive buttons on the homepage for users to directly select product categories, such as "Get Tickets" and "Browse Merchandise." This will streamline navigation and help users quickly access the content they're interested in.
+
+### Forum for Travel Buddies
+A forum exclusively for logged-in users will be introduced, allowing customers to connect with like-minded individuals, share experiences, and find travel buddies for upcoming hikes, or mud runs. This feature will foster community engagement and provide added value to users planning group adventures.
