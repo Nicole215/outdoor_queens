@@ -364,7 +364,7 @@ Admin users have the ability to delete products from the database, removing them
 This full CRUD capability empowers admins to efficiently manage the product catalog and maintain up-to-date information on the site.
 
 ## Technologies Used
-### Work Enviroments and Hosting
+#### Work Enviroments and Hosting
 - [Balsamiq](https://balsamiq.com/) Wireframes
 - [Lucid](https://lucid.app/documents/#/home?folder_id=recent) ERD diagrams
 - [GitHub](https://github.com/) Version control
@@ -372,26 +372,107 @@ This full CRUD capability empowers admins to efficiently manage the product cata
 - [Heroku](https://heroku.com/) Site hosting
 - [AWS - Amazon Web services (S3)](https://aws.amazon.com/) Hosting static and media files
 
-### Frameworks
+#### Frameworks
 - [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/) Used for front-end developement
 
-### Python Libraries
+#### Python Libraries
 - [Gunicorn](https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/gunicorn/) Python HTTP server for WSGI applications
 - [psycopg2](https://pypi.org/project/psycopg2/) PostgreSQL Database adapter
 - [Pillow](https://pypi.org/project/Pillow/) Python Imaging Library
 - [boto3](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html) integrates python libraries with AWS services
 - [django-storages](https://django-storages.readthedocs.io/en/latest/) collection of custom storage backends for Django
 
-### Django Libraries
+#### Django Libraries
 - [django-allauth](https://django-allauth.readthedocs.io/en/latest/) User authentication
 - [django-crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/) Control rendering behaviour of Django forms
 
-### Payment processing
+#### Payment processing
 - [Stripe](https://stripe.com/) Online payment platform
 
-### Emails/Newsletter
+#### Emails/Newsletter
 - [Gmail](https://mail.google.com/) Real Email sending
 - [Mailchimp](https://mailchimp.com/) Automated newsletter subscription service
 
-### SEO/Marketing
+#### SEO/Marketing
 - [XML Sitemaps](https://www.xml-sitemaps.com/) Sitemap generator
+
+## Deployment
+#### Heroku Deployment
+This site was deployed to and is currently hosted on the Heroku platform. The steps for deploying to Heroku, using PostgreSQL as the database host, are as follows:
+1. Prepare Requirements
+   - Generate a requirements.txt file by saving all project dependencies.
+2. Set Up a Heroku App
+   - Log in (or sign up) to Heroku.
+   - Click New, then select Create new app.
+   - Provide a unique app name and select the Europe region.
+3. Add Configuration Variables
+   - Go to the Settings tab, navigate to Config Vars, and reveal the section.
+   - Add all variables from your environment file (env.py) to Heroku’s Config Vars.
+4. Connect GitHub Repository
+   - Under the Deploy tab, choose GitHub as the deployment method.
+   - Search for your GitHub repository and click Connect.
+5. Update Django Settings
+   - Add the Heroku app’s URL to the ALLOWED_HOSTS list.
+   - Ensure DEBUG is set to False for production.
+6. Collect Static Files
+   - Gather all static files for the project to prepare them for deployment.
+7. Create a Procfile
+   - In the root directory, create a Procfile to instruct Heroku to run the app.
+8. Deploy the Code
+   - Enable automatic deploys or manually deploy the main branch through Heroku’s dashboard.
+  
+#### AWS Setup for Hosting Static Files and Images
+1. Create an AWS Account
+   - Log in to the AWS Management Console via the My Account dropdown.
+2. Set Up an S3 Bucket
+   - Navigate to S3 in the AWS Console and create a new bucket.
+   - Under Object Ownership, enable ACLs.
+   - Uncheck Block all public access and acknowledge the warning.
+3. Configure Bucket Settings
+   - Under Properties, enable Static Website Hosting.
+   - Under Permissions, add the following code to the CORS section to allow Heroku to access the bucket:
+
+![Screenshot 2024-12-15 174834](https://github.com/user-attachments/assets/d7e92db8-6136-4227-8afa-4828b24afcd9)
+
+ - Go to Bucket Policy and use the Policy Generator:
+   - Choose S3 Bucket Policy as the type.
+   - Set Principal to * (all users).
+   - Set Actions to GetObject.
+   - Paste the ARN from the bucket settings and add /* at the end.
+   - Generate and paste the policy into the Bucket Policy Editor, then click Save.
+   - Under Access Control List (ACL), check the List option for Everyone (public access).
+4. Create an IAM User for Bucket Access
+   - Navigate to IAM (Identity and Access Management).
+   - Create a user group, attach an access policy for S3 bucket access, and add a user to the group.
+5. Connect Django to S3
+   - Install the necessary libraries for managing S3 storage.
+   - Add 'storages' to the INSTALLED_APPS list in settings.py.
+   - Configure settings.py with the appropriate AWS credentials and bucket name.
+6. Update Heroku Config
+   - Add AWS credentials (e.g., access key, secret key, and bucket name) as config variables in Heroku.
+7. Upload Static and Media Files
+   - Collect and upload all static and media files to the S3 bucket.
+
+#### Adding Stripe for Payment Processing
+1. Set Up a Stripe Account
+   - Sign up for a Stripe account and log in.
+   - Navigate to Developers > API Keys in the dashboard.
+   - Copy both the Publishable Key and Secret Key for later use.
+2. Add Stripe Keys to Heroku
+   - Go to the Heroku dashboard and open your app settings.
+   - Add the following config variables:
+     - STRIPE_PUBLIC_KEY (value: Publishable Key from Stripe).
+     - STRIPE_SECRET_KEY (value: Secret Key from Stripe).
+3. Set Up Webhooks
+   - In the Stripe dashboard, go to Developers > Webhooks.
+   - Create a new webhook endpoint with the URL of your deployed site followed by /webhook/stripe/ (e.g., https://yourapp.herokuapp.com/webhook/stripe/).
+   - Select the events you want to monitor (e.g., checkout.session.completed).
+   - Copy the Signing Secret and add it to Heroku as a config variable:
+     - STRIPE_WH_SECRET (value: Signing Secret).
+4. Install Stripe Library
+   - Install the Stripe Python library in your project.
+5. Update Django Settings
+   - Add the Stripe keys to settings.py by referencing the Heroku environment variables.
+6. Integrate Stripe Checkout
+   - Use the Stripe library to implement payment functionality in your application.
+   - Set up a checkout session in your views to handle payments, specifying the success and cancel URLs.
