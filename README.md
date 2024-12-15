@@ -347,3 +347,18 @@ The database model diagram was designed using [Lucidchart](https://lucid.app/doc
 ![DBMS ER diagram (UML notation)](https://github.com/user-attachments/assets/4a5f46a1-b82a-4970-8678-7386e707e753)
   
 </details>
+
+## CRUD Functionality for Admin Users in the Products App
+The Products App includes full CRUD (Create, Read, Update, Delete) functionality for authorized admin users to manage products efficiently through the front-end interface:
+
+1. Create
+Admin users can add new products via an intuitive form. This includes specifying details such as product name, description, price, category, and uploading images.
+2. Read
+Admins can view all existing products with full details, such as name, description, price, and image.
+3. Update
+Admin users can edit existing product details, including changing the price, updating descriptions, or modifying product images.
+Changes are immediately reflected on the front-end once updated.
+4. Delete
+Admin users have the ability to delete products from the database, removing them from the site completely.
+
+This full CRUD capability empowers admins to efficiently manage the product catalog and maintain up-to-date information on the site.
