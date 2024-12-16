@@ -363,6 +363,99 @@ Admin users have the ability to delete products from the database, removing them
 
 This full CRUD capability empowers admins to efficiently manage the product catalog and maintain up-to-date information on the site.
 
+## Testing
+
+#### Introduction
+The testing process ensures that all features of the project function as intended, providing a smooth and error-free user experience. This section outlines manual and automated testing procedures, the tools used, and the outcomes.
+
+#### Manual Testing
+##### Navigation and Footer
+| Feature | Action | Expected Result |
+| --- | --- | --- |
+| Home Link Logo | While not on Homepage, click on Logo | User is redirected to homepage |
+| "Tickets" dropdown | Click dropdown in Navbar | User is presented with a list of ticket categories |
+| "Tickets" sub-categories | From "Tickets" dropdown, select sub-category | User is directed to page listing all products of tickets sub-category |
+| "Merchandise" dropdown | Click dropdown in Navbar | User is presented with a list of merch categories |
+| "Merchandise" sub-categories | From "Merchandise" dropdown, select sub-category | User is directed to page listing all products of merch sub-category |
+| "FAQ" link | Click FAQ link in navbar | User is directed to FAQ page |
+| "My Account" link | Click to open dropdown bar | Guests see option to Register or Login, once logged in, User sees option to see "My Profile" or log out |
+| "My Account" link for superuser | Click dropdown in navbar | Superuser also sees "Product Management" when logged in |
+| "Login" Link | While not authenticated, click "Login" | User is redirected to Login Form |
+| "Sign Up" Link | While not authenticated, click "Sign Up" | User is redirected to Sign Up Form |
+| "Logout" Link | While authenticated, click "Logout" | User is redirected to page with Sign Out button |
+| "Bag" Link | Click Bag link in navbar | User is redirected to shopping bag page |
+| Social Media Links | Click on any of the social media icons | New tab opens with respective social media site |
+| Newsletter form | Enter email address and click Subscribe | User sees message "Thank you for subscribing" |
+| Custom 404 Page | Append faulty extension to home URL | User is directed to a customised 404 error page, informing them of invalid ID, with a "Home" button |
+
+##### Products
+| Feature | Action | Expected Result |
+| --- | --- | --- |
+| Page content | On product detail page | User can see product image, read product description and see price |
+| Size selection dropdown | Click into size field to choose size | Chosen size is shown |
+| Quantity form | Enter different value into quantity input | Values outside the range of 1-10 will show form validation error when adding product to bag |
+| Quantity adjustment buttons | Adjust quantity by clicking +/- buttons | Value will not go below 1 or above 10. Buttons become pale when reaching top or bottom range |
+| Add to bag button | Click button | Product is added to bag with specified size and quantity |
+
+##### Products admin user (CRUD)
+| Feature | Action | Expected Result |
+| --- | --- | --- |
+| Adding products | Fill out Add Products Form and click Add Product | Form validation is effective. User is redirected to detail page of newly submitted product. Success alert displays. |
+| Editing products | Click Edit below product image. Update pre-populated form and submit. | After clicking Edit, info alert tells user that post is being edited. Form validation is effective. Form submit redirects user to product detail page with updated content. Success alert displays. |
+| Deleting products | Delete option on each product detail page allows admin user to delete existing product. | Product gets deleted and success alert confirms action. |
+
+##### Profile (authenticated users)
+| Feature | Action | Expected Result |
+| --- | --- | --- |
+| Profile page | Go to My Profile via My Account dropdown in navbar | User sees update form for default contact information and overview of order history |
+| Order history | In order history, click order nnumber of any past order | User is directed to new page displaying complete details of selected order. Alert message informs that info shown is of past order. Back to profile button links back to Profile page. |
+
+##### Shopping Bag
+| Feature | Action | Expected Result |
+| --- | --- | --- |
+| Empty Bag | Go to shopping bag without adding products | Bag displays "Your bag is empty" and "Keep shopping" button |
+| Bag page | Add item(s) to bag and go to shopping bag | User sees tabular view of all items in bag, incl. grand total |
+| Update item | Change quantity of selected item and click Update | Bag now displays new quantity |
+| Remove item | Click Remove on any item in the Bag | Success message informs user, that chosen item was removed from bag |
+| Checkout button | Click "Go to secure checkout" button | User is directed to Checkout page |
+
+#### Responsiveness Testing
+The site was tested on multiple devices, including Android Smartphone, Android tablet, and in major browsers like Chrome, Firefox, and Safari. No responsiveness issues were found.
+
+#### Validator Testing
+The python files have all been passed through [PEP8 CI Online](https://pep8ci.herokuapp.com/)
+All errors such as missing empty lines or line too long have been corrected right away.
+
+###### CSS Testing
+base css
+
+![base css](https://github.com/user-attachments/assets/ed1ca6a5-433b-49ed-b930-1f1a79aff00d)
+
+profiles css
+
+![profiles css](https://github.com/user-attachments/assets/36a17cf4-1a5f-41ab-a3fd-00158baa4f0c)
+
+checkout css
+
+![checkout css](https://github.com/user-attachments/assets/a8c506db-02ca-4145-aea0-aa68f6c7ecb6)
+
+###### Lighthouse Audit Results
+Desktop results
+
+![Lighthouseresults](https://github.com/user-attachments/assets/d431500a-24da-436d-808b-8432f9191f08)
+
+Mobile results
+
+![Screenshot 2024-12-16 105921](https://github.com/user-attachments/assets/861179f9-ea2d-4c23-87ef-c766727242ed)
+
+The yellow score in Performance is due to referencing external libraries and technologies such as Bootstrap, JQuery and Stripe that the project depend on and cannot be removed.
+
+#### Browser Testing
+| Browser | Layout | Functionality |
+| Chrome | :white_check_mark: | :white_check_mark: |
+| Edge | :white_check_mark: | :white_check_mark: |
+| Firefox | :white_check_mark: | :white_check_mark: |
+
 ## Technologies Used
 #### Work Enviroments and Hosting
 - [Balsamiq](https://balsamiq.com/) Wireframes
