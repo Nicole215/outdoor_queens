@@ -452,6 +452,7 @@ The yellow score in Performance is due to referencing external libraries and tec
 
 #### Browser Testing
 | Browser | Layout | Functionality |
+| --- | --- | --- |
 | Chrome | :white_check_mark: | :white_check_mark: |
 | Edge | :white_check_mark: | :white_check_mark: |
 | Firefox | :white_check_mark: | :white_check_mark: |
