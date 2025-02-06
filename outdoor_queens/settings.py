@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = [
-    '8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net',
+    '127.0.0.1',
     'outdoor-queens-e3117004e229.herokuapp.com', 'localhost']
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-nicole215-outdoorqueens-ga3ht18uwhi.ws.codeinstitute-ide.net'
