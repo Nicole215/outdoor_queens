@@ -101,6 +101,20 @@
                             {% endwith %}
                         </div>
                     </form>
+
+                    <!-- Form for wishlist -->
+                    <div class="col-12 mt-2">
+                        <form action="{% url 'toggle_wishlist' product.id %}" method="POST">
+                            {% csrf_token %}
+                            <button type="submit" class="btn {% if in_wishlist %}btn-danger{% else %}btn-warning{% endif %} rounded-0 text-uppercase mt-3">
+                                {% if in_wishlist %}
+                                <i class="fas fa-times"></i> Delete from Wishlist
+                                {% else %}
+                                <i class="fas fa-star"></i> Add to Wishlist
+                                {% endif %}
+                            </button>
+                        </form>
+                    </div>
                 </div> 
             </div>
         </div>

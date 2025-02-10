@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
-from .models import Product, Category
+from .models import Product, Category, Wishlist
 from .forms import ProductForm
 
 
@@ -41,9 +41,14 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
     product = get_object_or_404(Product, pk=product_id)
+    in_wishlist = False
+
+    if request.user.is_authenticated:
+        in_wishlist = Wishlist.objects.filter(user=request.user, product=product).exists()
 
     context = {
         'product': product,
+        'in_wishlist': in_wishlist,
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -117,3 +122,26 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted.')
     return redirect(reverse('products'))
+
+
+@login_required
+def toggle_wishlist(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    wishlist_item, created = Wishlist.objects.get_or_create(user=request.user, product=product)
+
+    if not created:
+        wishlist_item.delete()
+    
+    return redirect("wishlist_view")
+
+
+@login_required
+def wishlist_view(request):
+    """ A view to show the users wishlist """
+    wishlist_items = Wishlist.objects.filter(user=request.user)
+
+    context = {
+        'wishlist_items': wishlist_items,
+    }
+
+    return render(request, 'profiles/profile.html', context)

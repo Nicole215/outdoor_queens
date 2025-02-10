@@ -7,11 +7,15 @@ from .forms import UserProfileForm
 
 from checkout.models import Order
 
+from products.models import Wishlist
+
 
 @login_required
 def profile(request):
-    """ Display the user's profile """
+    """ Display the user's profile and wishlist """
     profile = get_object_or_404(UserProfile, user=request.user)
+    wishlist_items = Wishlist.objects.filter(user=request.user)
+
 
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -29,6 +33,7 @@ def profile(request):
     context = {
         'form': form,
         'orders': orders,
+        'wishlist_items': wishlist_items,
         'on_profile_page': True
     }
 
