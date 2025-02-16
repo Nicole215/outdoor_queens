@@ -180,6 +180,12 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+/* Wishlist button */
+.btn-warning {
+    background-color: goldenrod;
+    color: black;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
