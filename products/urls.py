@@ -10,5 +10,4 @@ urlpatterns = [
     path('delete/<int:product_id>/',
          views.delete_product, name='delete_product'),
     path('wishlist/toggle/<int:product_id>/', toggle_wishlist, name='toggle_wishlist'),
-    path('wishlist/', views.wishlist_view, name='wishlist_view'),
 ]

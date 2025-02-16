@@ -129,19 +129,10 @@ def toggle_wishlist(request, product_id):
     product = get_object_or_404(Product, id=product_id)
     wishlist_item, created = Wishlist.objects.get_or_create(user=request.user, product=product)
 
-    if not created:
+    if created:
+        messages.success(request, f"Successfully added {product.name} to your wishlist.")
+    else:
         wishlist_item.delete()
+        messages.info(request, f"Removed {product.name} from your wishlist.")
     
-    return redirect("wishlist_view")
-
-
-@login_required
-def wishlist_view(request):
-    """ A view to show the users wishlist """
-    wishlist_items = Wishlist.objects.filter(user=request.user)
-
-    context = {
-        'wishlist_items': wishlist_items,
-    }
-
-    return render(request, 'profiles/profile.html', context)
+    return redirect('product_detail', product_id=product.id)
