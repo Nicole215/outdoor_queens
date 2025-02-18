@@ -415,7 +415,9 @@ The testing process ensures that all features of the project function as intende
 | Feature | Action | Expected Result |
 | --- | --- | --- |
 | Profile page | Go to My Profile via My Account dropdown in navbar | User sees update form for default contact information and overview of order history |
-| Order history | In order history, click order nnumber of any past order | User is directed to new page displaying complete details of selected order. Alert message informs that info shown is of past order. Back to profile button links back to Profile page. |
+| Wishlist Product link | Under 'My Profile' go to wishlist and click product link | User is directed to Product Detail page |
+| Wishlist 'Remove from Wishlist' button | Under 'My Profile' go to wishlist and click remove button | User is directed to Product Detail page, where the user now can add product to wishlist again |
+| Order history | In order history, click order number of any past order | User is directed to new page displaying complete details of selected order. Alert message informs that info shown is of past order. Back to profile button links back to Profile page. |
 
 ##### Shopping Bag
 | Feature | Action | Expected Result |
