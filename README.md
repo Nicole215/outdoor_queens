@@ -576,6 +576,12 @@ This site was deployed to and is currently hosted on the Heroku platform. The st
    - Use the Stripe library to implement payment functionality in your application.
    - Set up a checkout session in your views to handle payments, specifying the success and cancel URLs.
 
+## Fixed Bugs
+When a user attempts to checkout a product with a negative price, an internal server error occurs. Instead of displaying a proper validation message or preventing the action, the system leads to a server error page.
+The issue was resolved by implementing a price validator that prevents products from having negative prices. This ensures that users cannot add or purchase items with invalid pricing, preventing the internal server error.
+
+![Screenshot 2025-02-18 120750](https://github.com/user-attachments/assets/247bc6d0-713d-4674-89e8-8446418e97ba)
+
 ## Development
 The following options are available to work with this code or run in a local environment.
 
