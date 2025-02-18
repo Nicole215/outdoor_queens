@@ -240,7 +240,7 @@ Categories include distinct groupings such as merchandise, event tickets, or oth
 Products are displayed with clear images, descriptions, and prices, ensuring users can make informed decisions quickly.
 Each product links to a dedicated page with additional details and purchase options, as well as an option to save the product on a wishlist for a later purchase.
 
-![image](https://github.com/user-attachments/assets/46eb91c8-c78f-4291-9080-a444bc6ba2e8)
+![Screenshot 2025-02-18 122849](https://github.com/user-attachments/assets/347d1e5f-b61c-4e15-8f1b-7e89c98600a4)
 
 This intuitive structure ensures customers can effortlessly explore and find products that match their interests.
 
