@@ -238,7 +238,7 @@ Categories include distinct groupings such as merchandise, event tickets, or oth
 ##### User-Friendly Layout
 
 Products are displayed with clear images, descriptions, and prices, ensuring users can make informed decisions quickly.
-Each product links to a dedicated page with additional details and purchase options.
+Each product links to a dedicated page with additional details and purchase options, as well as an option to save the product on a wishlist for a later purchase.
 
 ![image](https://github.com/user-attachments/assets/46eb91c8-c78f-4291-9080-a444bc6ba2e8)
 
@@ -316,7 +316,7 @@ Includes a summary of the order, such as purchased items, quantities, total amou
 ##### Next Steps
 Provides guidance on what happens next, such as receiving a confirmation email or expected delivery timeline.
 
-#### User Profile Page
+### User Profile Page
 The User Profile Page provides users with a centralized space to manage their personal information and view order history:
 
 ##### Contact Address Form
@@ -327,13 +327,15 @@ Users can easily update their contact details when needed.
 A dedicated button allows users to save any changes made to their profile information.
 
 ##### Wishlist
-Logged in users can create a wishlist. Products can be added to the wishlist or deleted.
+Logged in users can create a wishlist. This is displayed in the profile. Items can be deleted from the wishlist using a button.
+
+![Screenshot 2025-02-18 122032](https://github.com/user-attachments/assets/666b69d4-a359-4719-8d80-a7ec0b208330)
 
 ##### Order History
 Displays a list of the user's past orders, including order dates, items purchased, and total amounts.
 Provides a convenient reference for tracking previous purchases.
 
-![Screenshot 2024-12-15 132106](https://github.com/user-attachments/assets/c3efb1aa-29a7-4696-b5ee-172e74f67154)
+![Screenshot 2025-02-18 122057](https://github.com/user-attachments/assets/e76eea60-a343-4c1b-974d-d5faefc14412)
 
 ## Possible Future Features
 ### Pre-Select Categories from Homepage
