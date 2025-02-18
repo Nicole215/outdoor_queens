@@ -401,6 +401,8 @@ The testing process ensures that all features of the project function as intende
 | Quantity form | Enter different value into quantity input | Values outside the range of 1-10 will show form validation error when adding product to bag |
 | Quantity adjustment buttons | Adjust quantity by clicking +/- buttons | Value will not go below 1 or above 10. Buttons become pale when reaching top or bottom range |
 | Add to bag button | Click button | Product is added to bag with specified size and quantity |
+| Add to wishlist button | Click button | Product is added to wishlist, confirmed by a message and button turns to 'Remove from Wishlist' |
+| Remove from wishlist button | Click button | On Product Details Page, button changes to 'Add to wishlist', from Profile user gets directed to Product, where he can either purchase or put the product back on wishlist |
 
 ##### Products admin user (CRUD)
 | Feature | Action | Expected Result |
