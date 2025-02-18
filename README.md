@@ -326,6 +326,9 @@ Users can easily update their contact details when needed.
 ##### Update Information Button
 A dedicated button allows users to save any changes made to their profile information.
 
+##### Wishlist
+Logged in users can create a wishlist. Products can be added to the wishlist or deleted.
+
 ##### Order History
 Displays a list of the user's past orders, including order dates, items purchased, and total amounts.
 Provides a convenient reference for tracking previous purchases.
